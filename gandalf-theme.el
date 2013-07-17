@@ -1,4 +1,4 @@
-;;; gandalf-ptrv-theme.el --- Gandalf color theme
+;;; gandalf-theme.el --- Gandalf color theme
 
 ;; Copyright (C) 2013 Peter Vasil
 
@@ -29,7 +29,7 @@
 ;;; Code:
 
 (deftheme gandalf
-  "Gandalf colour theme by Sam Aaron, modified by ptrv")
+  "Gandalf color theme by Sam Aaron, modified by ptrv")
 
 (let ((class '((class color) (min-colors 89)))
       ;; gandalf color palette
@@ -67,8 +67,8 @@
       (gandalf-gray-7 "gray60")
       (gandalf-gray-8 "gray70")
       (gandalf-gray-9 "gray80")
-      (gandalf-gray-10 "gray85")
-      )
+      (gandalf-gray-10 "gray85"))
+
   (custom-theme-set-faces
    'gandalf
    `(default ((,class (:background ,gandalf-bg :foreground ,gandalf-fg))))
@@ -118,7 +118,6 @@
    `(ido-indicator ((,class (:foreground ,gandalf-fg :background ,gandalf-pink-2))))
    `(minibuffer-prompt ((,class (:foreground ,gandalf-blue-1 :background ,gandalf-gray-10))))
 
-   ;; magit
    `(magit-item-highlight ((,class (:background ,gandalf-gray-3))))
    `(magit-diff-add ((,class (:foreground ,gandalf-green-3))))
    `(magit-diff-del ((,class (:foreground ,gandalf-pink-1))))
