@@ -25,3 +25,8 @@ To load the theme on startup add the following to your `.emacs` file:
 ```
 (load-theme 'gandalf t)
 ```
+
+Screenshot
+----------
+
+![screenshot](screenshot.png)
