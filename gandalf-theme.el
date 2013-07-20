@@ -148,6 +148,8 @@
 
    `(flymake-errline ((,class (:background ,gandalf-pink-3))))
    `(flymake-warnline ((,class (:background ,gandalf-orange-2))))
+
+   `(eshell-prompt ((,class (:foreground ,gandalf-green-1 :bold t))))
    )
 
   ;; (custom-theme-set-variables
