@@ -46,6 +46,7 @@
       (gandalf-green-1 "dark green")
       (gandalf-green-2 "SeaGreen")
       (gandalf-green-3 "chartreuse3")
+      (gandalf-green-4 "#00A000")
       (gandalf-cyan-1 "dark cyan")
       (gandalf-black-1 "#000000")
       (gandalf-pink-1 "violet red")
@@ -150,6 +151,9 @@
    `(flymake-warnline ((,class (:background ,gandalf-orange-2))))
 
    `(eshell-prompt ((,class (:foreground ,gandalf-green-1 :bold t))))
+
+   `(diff-added ((,class (:foreground ,gandalf-green-4))))
+   `(diff-removed ((,class (:foreground ,gandalf-red-2))))
    )
 
   ;; (custom-theme-set-variables
